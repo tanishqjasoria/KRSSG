@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Motor_Driver_pritam.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Motor_Driver_pritam -TC:\CooCox\CoIDE\configuration\ProgramData\Motor_Driver_pritam/arm-gcc-link.ld -g">
+      <target file="Motor_Driver_pritam.elf" lastModified="15c038f6a28">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="15c038f614e"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c038f61e1"/>
+         <source file="..\obj\main.o" lastModified="15c038f6255"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c038f62de"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c038f6343"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c038f6391"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15c038f640b"/>
+         <source file="..\obj\misc.o" lastModified="15c038f648f"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15c038f6567"/>
+      </target>
+   </processor>
+</history>

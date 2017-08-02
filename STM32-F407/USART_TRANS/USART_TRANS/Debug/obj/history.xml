@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\USART_TRANS\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\USART_TRANS\cmsis_lib -I..\..\..\workspace\USART_TRANS\cmsis_lib\include -I..\..\..\workspace\USART_TRANS -I..\..\..\workspace\USART_TRANS\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="15b24d575a4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15b24d4daf1"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15b24d5764d">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15b24d4dba9"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15b24d575f9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15b24d4e0bf"/>
+      </target>
+      <target file="main.o" lastModified="15b3f72e200">
+         <source file="..\..\..\main.c" lastModified="15b3f72ddd2"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15b24d574ad">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15b24d50274"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15b24d574ee">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15b24d4db26"/>
+      </target>
+   </processor>
+</history>

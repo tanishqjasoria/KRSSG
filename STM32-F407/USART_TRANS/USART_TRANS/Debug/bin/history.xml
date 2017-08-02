@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART_TRANS.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\USART_TRANS -TC:\CooCox\CoIDE\configuration\ProgramData\USART_TRANS/arm-gcc-link.ld -g">
+      <target file="USART_TRANS.elf" lastModified="15b3f72e468">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15b24d574ad"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15b24d574ee"/>
+         <source file="..\obj\main.o" lastModified="15b3f72e200"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15b24d575a4"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15b24d575f9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15b24d5764d"/>
+      </target>
+   </processor>
+</history>

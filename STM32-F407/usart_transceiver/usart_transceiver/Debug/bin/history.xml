@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=usart_transceiver.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\usart_transceiver -TC:\CooCox\CoIDE\configuration\ProgramData\usart_transceiver/arm-gcc-link.ld -g">
+      <target file="usart_transceiver.elf" lastModified="15b49455040">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15b4945475c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15b4581b701"/>
+         <source file="..\obj\main.o" lastModified="15b49454844"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15b494548dd"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15b49454931"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15b49454985"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Timer.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Timer -TC:\CooCox\CoIDE\configuration\ProgramData\Timer/arm-gcc-link.ld -g">
+      <target file="Timer.elf" lastModified="15b0a094afa">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15aec76610d"/>
+         <source file="..\obj\main.o" lastModified="15b0a094892"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15aec7662b5"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15aec76635c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15aec7663b6"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15aec766480"/>
+      </target>
+   </processor>
+</history>
